@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControls.Android", "CustomControls.Android\CustomControls.Android.csproj", "{C0990C52-056C-4934-93EE-9016A2725AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControls", "CustomControls\CustomControls.csproj", "{3BEBC671-C557-4598-9291-47ECF51EDF54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0990C52-056C-4934-93EE-9016A2725AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0990C52-056C-4934-93EE-9016A2725AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0990C52-056C-4934-93EE-9016A2725AA7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C0990C52-056C-4934-93EE-9016A2725AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0990C52-056C-4934-93EE-9016A2725AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0990C52-056C-4934-93EE-9016A2725AA7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3BEBC671-C557-4598-9291-47ECF51EDF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEBC671-C557-4598-9291-47ECF51EDF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEBC671-C557-4598-9291-47ECF51EDF54}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3BEBC671-C557-4598-9291-47ECF51EDF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEBC671-C557-4598-9291-47ECF51EDF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEBC671-C557-4598-9291-47ECF51EDF54}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EEE82A4-B97D-4AF8-8BA9-C321052B13EB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Style x:Key="Bnt_Style1" TargetType="Button">
+    <Setter Property="TextColor" Value="DeepPink" />
+    <Setter Property="BorderWidth" Value="1" />
+    <Setter Property="BorderColor" Value="DeepPink" />
+</Style>
+
+<Style x:Key="Bnt_Style2" TargetType="Button"
+        BasedOn="{StaticResource Bnt_Style1}">
+    <Setter Property="BackgroundColor" Value="LightPink" />
+    <Setter Property="FontSize" Value="20" />
+</Style>
+
+
+<Button  Text="Button 1" Style="{StaticResource Bnt_Style1}"/>
+<Button  Text="Button 2" Style="{StaticResource Bnt_Style2}"/>
