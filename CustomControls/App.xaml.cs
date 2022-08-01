@@ -10,8 +10,8 @@ namespace CustomControls
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
-            //NavigationPage = new NavigationPage ( new Custom());
+            //MainPage = new MainPage();
+            MainPage = new NavigationPage ( new MainPage());
            
         }
 

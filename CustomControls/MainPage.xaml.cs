@@ -15,5 +15,9 @@ namespace CustomControls
             InitializeComponent();
         }
 
+         private async void toolSecondForm_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PageSecond());
+        }
     }
 }

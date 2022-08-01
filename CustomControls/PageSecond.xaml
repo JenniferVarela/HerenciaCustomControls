@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CustomControls.MainPage"
-             xmlns:controls="clr-namespace:CustomControls" >
+             x:Class="CustomControls.PageSecond"
+             xmlns:controls="clr-namespace:CustomControls">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Second form"
-                     x:Name="toolSecondForm" Clicked="toolSecondForm_Clicked"/>
+        <ToolbarItem Text="Agregar Alumno"
+                     IconImageSource="icon.png"
+                     x:Name="toolCrearAlumno"
+              />
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
-        <StackLayout Margin="10,20">
-            <Label Text="Ejemplo 1"/>
+        <StackLayout>
+            <Label Text="Ejemplo 2"/>
             <controls:FromEntry  Title="First Name:"/>
 
             <controls:FromEntry  Title="Last Name:"/>
 
             <controls:FromEntry Title="Company:"/>
-
         </StackLayout>
     </ContentPage.Content>
-
 </ContentPage>
